@@ -1,29 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*------------------------------------------
-Project Name : Build Construct
-Desgined By  : hassan_malik19
-Developed By : Hassan;
-Date        :  6/Jan/18;
 
-Table Of Index
-------------------
-1. Base css
-2. Top bar css
-3. Header css
-4. Banner css
-5. Slider Video wrap start
-6. Custom slider options start
-7. About us css
-8. Quote css
-9. Services css
-10. Porfolio css
-11. Testimonials css	
-12. Our Team  css
-13. Contact Us
-14. footer css
-------------------------------------------*/
 
 
 
@@ -463,5 +441,58 @@ textarea.form-control{height:110px !important;}
 
 
 
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: blue;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #fff;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 
